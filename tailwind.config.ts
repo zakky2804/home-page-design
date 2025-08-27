@@ -9,10 +9,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        "neural/": {
+        neural: {
           white: "#ffffff",
           d_gray: "#4D4D4D",
           gray: "#717171",
+          black: "#263238",
+          silver: "#F5F7FA",
         },
         brand: {
           primary: "#4CAF4F",
