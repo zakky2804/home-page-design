@@ -9,8 +9,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        "neural/": {
+          white: "#ffffff",
+          d_gray: "#4D4D4D",
+          gray: "#717171",
+        },
+        brand: {
+          primary: "#4CAF4F",
+        },
       },
     },
   },
