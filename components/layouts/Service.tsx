@@ -28,11 +28,11 @@ const Service = () => {
   return (
     <section className="section-wrapper">
       <div className="mb-6 text-center">
-        <h2 className="">Manage your entire community in a signle system</h2>
+        <h2>Manage your entire community in a signle system</h2>
         <p className="">Who is Nextcent subtitle for?</p>
       </div>
 
-      <div className="flex gap-6 text-center items-center">
+      <div className="flex flex-col md:flex-row gap-6 text-center items-center">
         {servicesData.map((data) => (
           <div className="" key={data.id}>
             <Image
@@ -43,8 +43,8 @@ const Service = () => {
               height={40}
             />
             <div className="">
-              <h3 className="">{data.title}</h3>
-              <p className="">{data.desciption}</p>
+              <h3 className="max-w-[85px] mx-auto">{data.title}</h3>
+              <p className="text-sm">{data.desciption}</p>
             </div>
           </div>
         ))}

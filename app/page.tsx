@@ -1,5 +1,6 @@
 export const dynamic = "force-static";
 
+import Brand2 from "@/components/layouts/Brand2";
 import Brands from "@/components/layouts/Brands";
 import Hero from "@/components/layouts/Hero";
 import Navbar from "@/components/layouts/Navbar";
@@ -12,6 +13,7 @@ export default function Home() {
       <Hero />
       <Brands />
       <Service />
+      <Brand2 />
     </div>
   );
 }
