@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        secondary: "--font-intern",
+      },
       colors: {
         neural: {
           white: "#ffffff",
