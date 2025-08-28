@@ -5,6 +5,7 @@ import Brands from "@/components/layouts/Brands";
 import Hero from "@/components/layouts/Hero";
 import Navbar from "@/components/layouts/Navbar";
 import Service from "@/components/layouts/Service";
+import Statistic from "@/components/layouts/Statistic";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Brands />
       <Service />
       <Brand2 />
+      <Statistic />
     </div>
   );
 }

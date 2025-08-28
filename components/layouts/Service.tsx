@@ -28,7 +28,9 @@ const Service = () => {
   return (
     <section className="section-wrapper">
       <div className="mb-6 text-center">
-        <h2>Manage your entire community in a signle system</h2>
+        <h2 className="max-w-96 mx-auto">
+          Manage your entire community in a signle system
+        </h2>
         <p className="">Who is Nextcent subtitle for?</p>
       </div>
 
