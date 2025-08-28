@@ -12,9 +12,9 @@ const images = [
 
 const Brands = () => {
   return (
-    <section className="min-h-[416px] mx-auto px-4 lg:px-24 py-7">
+    <section className="section-wrapper">
       <div className="text-center">
-        <h2 className="text-2xl font-medium">Our clients</h2>
+        <h2>Our clients</h2>
         <p>We have been working with some Fortune 500+ clients</p>
       </div>
 

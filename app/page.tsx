@@ -3,6 +3,7 @@ export const dynamic = "force-static";
 import Brands from "@/components/layouts/Brands";
 import Hero from "@/components/layouts/Hero";
 import Navbar from "@/components/layouts/Navbar";
+import Service from "@/components/layouts/Service";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Brands />
+      <Service />
     </div>
   );
 }
